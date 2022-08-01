@@ -133,5 +133,5 @@ EMAIL_USE_SSL = True        # SSL加密方式
 EMAIL_HOST = 'smtp.qq.com'   # 发送邮件的邮箱 的 SMTP服务器
 EMAIL_PORT = 465    # SMTP服务器端口
 EMAIL_HOST_USER = '1032010805@qq.com'   # 发件人
-EMAIL_HOST_PASSWORD = "lfeebmyqqocibaja"   # 密码(这里使用的是授权码)
+EMAIL_HOST_PASSWORD = ""   # 密码(这里使用的是授权码)
 EMAIL_FROM = '中华医学会<1032010805@qq.com>'   # 邮件显示的发件人
