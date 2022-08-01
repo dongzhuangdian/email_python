@@ -7,7 +7,7 @@ class QqemailConfig(AppConfig):
 
 class QqemailUtils:
     def email_html_attachment(self, subject, html_content, to, attachment_path):
-        msg = EmailMessage(subject, html_content, "1032010805@qq.com", [to], bcc=["18310401860@163.com"])
+        msg = EmailMessage(subject, html_content, "会务组<1032010805@qq.com>", [to], bcc=["18310401860@163.com"])
         msg.attach_file(attachment_path)
         msg.content_subtype = "html"  # Main content is now text/html
         msg.send()
